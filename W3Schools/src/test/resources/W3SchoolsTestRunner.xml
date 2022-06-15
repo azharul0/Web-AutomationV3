@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Unit Test Automation Script" parallel="false">
+    <test name="W3School Home">
+        <parameter name="useCloudEnv" value="false"></parameter>
+        <parameter name="url" value="https://www.w3schools.com/sql/sql_select.asp"></parameter>
+        <classes>
+            <class name="table.TestTable"></class>
+        </classes>
+    </test>
+</suite>
